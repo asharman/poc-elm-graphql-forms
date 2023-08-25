@@ -6,9 +6,11 @@
     "postinstall": "elm-tooling install",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "api": "elm-graphql https://graphqlzero.almansi.me/api --base PlaceholderApi"
   },
   "devDependencies": {
+    "@dillonkearns/elm-graphql": "^4.3.1",
     "autoprefixer": "^10.4.13",
     "elm-tooling": "^1.12.0",
     "postcss": "^8.4.21",
